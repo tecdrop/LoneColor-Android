@@ -32,9 +32,17 @@ As a zero interface app (without any texts, buttons or settings), LoneColor give
 
 [More Reviews](http://www.appgramming.com/lonecolor/reviews/)
 
+## Building
+1. Download and install [Android Studio](http://developer.android.com/sdk/index.html)
+2. Clone the project or a fork of it to your local development machine
+3. Import the project into Android Studio
+4. Sync Project with Gradle files to download all the dependencies
+5. Open the SDK manager to install the required Android SDK Tools and Android SDK Build-tools
+6. Build the project
+
 ## Contributions
 
-Contributions are welcome! For feature requests and bug reports please [submit an issue](https://github.com/appgramming/LoneColor-Android/issues).
+All contributions are welcome: code, documentation, graphics, design suggestions, and more. Please fork this repository and contribute back using [pull requests](https://github.com/appgramming/LoneColor-Android/pulls). For feature requests and bug reports please [submit an issue](https://github.com/appgramming/LoneColor-Android/issues).
 
 ## Sponsor
 
