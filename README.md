@@ -15,7 +15,18 @@ If the random color wallpaper is not to your taste, and because LoneColor is so 
 
 As a zero interface app (without any texts, buttons or settings), LoneColor gives you feedback using the... Clipboard. Just go and paste anywhere to get the color code of the random wallpaper, or any (unlikely) error messages.
 
-![LoneColor for Android - Nexus 5X Screenshot](http://res.cloudinary.com/appgramming/image/upload/c_scale,w_360/v1473695422/Apps/LoneColor/Android/GitHub/Screenshots/lonecolor-android-screenshot-nexus5x-tap.png)
+<a href="https://cloud.githubusercontent.com/assets/17748046/18539692/f2304e5a-7b21-11e6-8bfd-ac9e3b8813f8.png" target="_blank">
+  <img src="https://cloud.githubusercontent.com/assets/17748046/18539692/f2304e5a-7b21-11e6-8bfd-ac9e3b8813f8.png" width="310"     alt="LoneColor for Android Screenshot - Tap.png"/>
+</a>
+<a href="https://cloud.githubusercontent.com/assets/17748046/18539693/f230828a-7b21-11e6-979b-2d3953e73d40.png" target="_blank">
+  <img src="https://cloud.githubusercontent.com/assets/17748046/18539693/f230828a-7b21-11e6-979b-2d3953e73d40.png" width="310"     alt="LoneColor for Android Screenshot - Tap.png"/>
+</a>
+<a href="https://cloud.githubusercontent.com/assets/17748046/18539694/f230ab5c-7b21-11e6-8e08-334995d4a8fb.png" target="_blank">
+  <img src="https://cloud.githubusercontent.com/assets/17748046/18539694/f230ab5c-7b21-11e6-8e08-334995d4a8fb.png" width="310"     alt="LoneColor for Android Screenshot - Tap.png"/>
+</a>
+<a href="https://cloud.githubusercontent.com/assets/17748046/18539695/f230d7bc-7b21-11e6-8df7-25d09b01fcba.png" target="_blank">
+  <img src="https://cloud.githubusercontent.com/assets/17748046/18539695/f230d7bc-7b21-11e6-8df7-25d09b01fcba.png" width="310"     alt="LoneColor for Android Screenshot - Tap.png"/>
+</a>
 
 ## Reviews
 
