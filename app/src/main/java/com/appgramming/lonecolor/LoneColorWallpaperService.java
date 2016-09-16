@@ -12,6 +12,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.Color;
+import android.os.Build;
 
 /**
  * An {@link IntentService} subclass for changing the current system wallpaper to a bitmap
@@ -47,6 +48,7 @@ public class LoneColorWallpaperService extends IntentService {
     /**
      * Creates the LoneColorWallpaperService IntentService.
      */
+    @SuppressWarnings("WeakerAccess")
     public LoneColorWallpaperService() {
         super("LoneColorWallpaperService");
     }
@@ -60,6 +62,17 @@ public class LoneColorWallpaperService extends IntentService {
         final Intent intent = new Intent(context, LoneColorWallpaperService.class);
         intent.putExtra(EXTRA_COLOR, color);
         context.startService(intent);
+    }
+
+    /**
+     * Returns a mutable 1px x 1px bitmap filled with the specified color.
+     *
+     * @param color The color to fill the bitmap
+     */
+    private static Bitmap createColorBitmap(int color) {
+        final Bitmap colorBitmap = Bitmap.createBitmap(ONE_PIXEL, ONE_PIXEL, Bitmap.Config.ARGB_8888);
+        colorBitmap.eraseColor(color);
+        return colorBitmap;
     }
 
     /**
@@ -82,27 +95,24 @@ public class LoneColorWallpaperService extends IntentService {
             final Bitmap colorBitmap = createColorBitmap(color);
 
             // Set the wallpaper
-            wpManager.setBitmap(colorBitmap);
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
+                // On Android N and above use the new API to set both the general system wallpaper and
+                // the lock-screen-specific wallpaper
+                wpManager.setBitmap(colorBitmap, null, true, WallpaperManager.FLAG_SYSTEM | WallpaperManager.FLAG_LOCK);
+            } else {
+                wpManager.setBitmap(colorBitmap);
+            }
 
             // Success: copy the color code to the clipboard
             statusOK(color);
+
+            Utils.goHome(this);
 
         } catch (Exception e) {
             // Write the stack trace to System.err and copy the reason of the failure to clipboard
             e.printStackTrace();
             statusFailure(e.toString());
         }
-    }
-
-    /**
-     * Returns a mutable 1px x 1px bitmap filled with the specified color.
-     *
-     * @param color  The color to fill the bitmap
-     */
-    private static Bitmap createColorBitmap(int color) {
-        final Bitmap colorBitmap = Bitmap.createBitmap(ONE_PIXEL, ONE_PIXEL, Bitmap.Config.ARGB_8888);
-        colorBitmap.eraseColor(color);
-        return colorBitmap;
     }
 
     /**
