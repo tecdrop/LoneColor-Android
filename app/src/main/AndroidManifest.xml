@@ -14,7 +14,7 @@
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
         <activity
-            android:name=".StartActivity"
+            android:name=".LoneColorActivity"
             android:excludeFromRecents="true"
             android:label="@string/app_name">
             <intent-filter>
@@ -24,9 +24,6 @@
             </intent-filter>
         </activity>
 
-        <service
-            android:name=".LoneColorWallpaperService"
-            android:exported="false"/>
     </application>
 
 </manifest>

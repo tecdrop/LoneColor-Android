@@ -1,8 +1,21 @@
 /*
- * Copyright (C) 2014-2016 Appgramming. All rights reserved.
+ * Copyright (C) 2014-2016 Appgramming
  * http://www.appgramming.com
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
  */
-package com.appgramming.lonecolor;
+
+package com.appgramming.lonecolor.utils;
 
 import android.content.ClipData;
 import android.content.ClipDescription;
@@ -11,10 +24,15 @@ import android.content.Context;
 import android.graphics.Color;
 import android.text.TextUtils;
 
+import com.appgramming.lonecolor.R;
+
 /**
- * A static method to get a valid color value from the clipboard.
+ * Utility class to read a valid color value from the clipboard.
  */
-final class ColorClipParameter {
+public final class ColorClipboardParameter {
+
+    private ColorClipboardParameter() {
+    }
 
     /**
      * Gets the current clip parameter from the clipboard.
@@ -62,7 +80,7 @@ final class ColorClipParameter {
     public static Integer getColor(Context context) {
 
         // Get the clip parameter from the clipboard
-        final String clipText = ColorClipParameter.getClipParameter(context);
+        final String clipText = ColorClipboardParameter.getClipParameter(context);
 
         // Return null if the clip is null or empty
         if (TextUtils.isEmpty(clipText)) {
