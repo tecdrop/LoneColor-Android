@@ -13,13 +13,13 @@ If the random color wallpaper is not to your taste, and because LoneColor is so 
 
 As a zero interface app (without any texts, buttons or settings), LoneColor gives you feedback using the... Clipboard. Just go and paste anywhere to get the color code of the random wallpaper, or any (unlikely) error messages.
 
-##Download
+## Download
 
 <a href='https://play.google.com/store/apps/details?id=com.appgramming.lonecolor&utm_source=global_co&utm_medium=prtnr&utm_content=Mar2515&utm_campaign=PartBadge&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png' width="240"/></a>
 
-- [Download APK from Github Releases](https://github.com/appgramming/LoneColor-Android/releases/latest)
+**[Download APK from Github Releases](https://github.com/appgramming/LoneColor-Android/releases/latest)**
 
-##Screenshots
+## Screenshots
 
 <a href="https://cloud.githubusercontent.com/assets/17748046/18539692/f2304e5a-7b21-11e6-8bfd-ac9e3b8813f8.png" target="_blank">
   <img src="https://cloud.githubusercontent.com/assets/17748046/18539692/f2304e5a-7b21-11e6-8bfd-ac9e3b8813f8.png" width="310"     alt="LoneColor for Android Screenshot - Tap.png"/>
