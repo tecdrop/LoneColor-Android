@@ -48,10 +48,10 @@ As a zero interface app (without any texts, buttons or settings), LoneColor give
 > "There are no settings and options to confuse the user."<br />
 > &mdash; <cite>Download3K Editor's Review: Very Good</cite>
 
-[More Reviews](http://www.appgramming.com/lonecolor/reviews/)
+[More Reviews](https://www.appgramming.com/lonecolor/reviews/)
 
 ## Building
-1. Download and install [Android Studio](http://developer.android.com/sdk/index.html)
+1. Download and install [Android Studio](https://developer.android.com/sdk/index.html)
 2. Clone the project or a fork of it to your local development machine
 3. Import the project into Android Studio
 4. Sync Project with Gradle files to download all the dependencies
@@ -60,11 +60,11 @@ As a zero interface app (without any texts, buttons or settings), LoneColor give
 
 ## Contributions
 
-All contributions are welcome: code, documentation, graphics, design suggestions, and more. Please fork this repository and contribute back using [pull requests](https://github.com/appgramming/LoneColor-Android/pulls). For feature requests and bug reports please [submit an issue](https://github.com/appgramming/LoneColor-Android/issues).
+Contributions are welcome: code, text, documentation, design, graphics, suggestions. Please fork this repository and contribute back using [pull requests](https://github.com/appgramming/LoneColor-Android/pulls), [submit an issue](https://github.com/appgramming/LoneColor-Android/issues), or [send an email](https://www.appgramming.com/support/).
 
 ## Sponsor
 
-LoneColor (and all Appgramming free applications) are supported by [East-Tec](http://www.east-tec.com), the home of [east-tec Eraser](http://www.east-tec.com/eraser/), the privacy tool that quickly and securely covers your online and PC tracks.
+LoneColor (and all Appgramming free applications) are supported by [East-Tec](https://www.east-tec.com), the home of [east-tec Eraser](https://www.east-tec.com/eraser/), the privacy tool that quickly and securely covers your online and PC tracks.
 
 ## License
 
