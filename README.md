@@ -48,6 +48,9 @@ As a zero interface app (without any texts, buttons or settings), LoneColor give
 > "There are no settings and options to confuse the user."<br />
 > &mdash; <cite>Download3K Editor's Review: Very Good</cite>
 
+> "Awesome Idea bro, Loved it Come here from GitHub and lovely coding style and lovely innovative idea. Really amazing"
+> &mdash; <cite>★★★★★ Mayank Kaushik on Google Play</cite>
+
 [More Reviews](https://www.appgramming.com/lonecolor/reviews/)
 
 ## Building
