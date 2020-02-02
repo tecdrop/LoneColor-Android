@@ -62,9 +62,9 @@ As a zero interface app (without any texts, buttons or settings), LoneColor give
 
 Contributions are welcome: code, text, documentation, design, graphics, suggestions. Please fork this repository and contribute back using [pull requests](https://github.com/appgramming/LoneColor-Android/pulls), [submit an issue](https://github.com/appgramming/LoneColor-Android/issues), or [send an email](https://www.appgramming.com/support/).
 
-## Sponsor
+## Author
 
-LoneColor (and all Appgramming free applications) are supported by [East-Tec](https://www.east-tec.com), the home of [east-tec Eraser](https://www.east-tec.com/eraser/), the privacy tool that quickly and securely covers your online and PC tracks.
+LoneColor has been created by [Horațiu Tănescu](https://horatiu.me), cofounder of [East-Tec](https://www.east-tec.com) and original creator of [east-tec Eraser](https://www.east-tec.com/eraser/), the privacy tool that quickly and securely covers your online and PC tracks.
 
 ## License
 
