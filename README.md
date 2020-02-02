@@ -13,6 +13,8 @@ If the random color wallpaper is not to your taste, and because LoneColor is so 
 
 As a zero interface app (without any texts, buttons or settings), LoneColor gives you feedback using the... Clipboard. Just go and paste anywhere to get the color code of the random wallpaper, or any (unlikely) error messages.
 
+LoneColor also has a zero interface [version](https://github.com/appgramming/LoneColor-Windows) for Windows PCs and laptops.
+
 ## Download
 
 <a href='https://play.google.com/store/apps/details?id=com.appgramming.lonecolor&utm_source=global_co&utm_medium=prtnr&utm_content=Mar2515&utm_campaign=PartBadge&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png' width="240"/></a>
@@ -67,7 +69,7 @@ Contributions are welcome: code, text, documentation, design, graphics, suggesti
 
 ## Author
 
-LoneColor has been created by [Horațiu Tănescu](https://horatiu.me), cofounder of [East-Tec](https://www.east-tec.com) and original creator of [east-tec Eraser](https://www.east-tec.com/eraser/), the privacy tool that quickly and securely covers your online and PC tracks.
+LoneColor for Android was created in 2014 by [Horațiu Tănescu](https://horatiu.me), cofounder of [East-Tec](https://www.east-tec.com) and original creator of [east-tec Eraser](https://www.east-tec.com/eraser/), the privacy solution that quickly and securely covers your online and PC tracks.
 
 ## License
 
