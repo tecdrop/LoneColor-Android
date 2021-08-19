@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2014-2016 Appgramming
-     http://www.appgramming.com
+<!-- Copyright (C) 2014-2021 Tecdrop
+     https://www.tecdrop.com
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -16,6 +16,6 @@
 -->
 <resources>
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="android:Theme.NoDisplay">
+    <style name="AppTheme" parent="android:Theme.Material.Light.Dialog.NoActionBar.MinWidth">
     </style>
 </resources>

@@ -1,6 +1,6 @@
 /*
- * Copyright (C) 2014-2016 Appgramming
- * http://www.appgramming.com
+ * Copyright (C) 2014-2021 Tecdrop
+ * https://www.tecdrop.com
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -35,6 +35,11 @@ public class LoneColorActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+    }
+
+    @Override
+    public void onWindowFocusChanged(boolean hasFocus) {
+        super.onWindowFocusChanged(hasFocus);
 
         // Set the color wallpaper
         setColorWallpaper();
@@ -66,7 +71,7 @@ public class LoneColorActivity extends Activity {
             ColorWallpaper.setColorWallpaper(this, color);
 
             // Success: copy the color code to the clipboard
-            Utils.copyText(this, Utils.colorToHex(color));
+            Utils.copyText(this, "Wallpaper " + Utils.colorToHex(color));
 
             // Go to the home screen
             Utils.goHome(this);

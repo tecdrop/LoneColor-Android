@@ -1,6 +1,6 @@
 /*
- * Copyright (C) 2014-2016 Appgramming
- * http://www.appgramming.com
+ * Copyright (C) 2014-2021 Tecdrop
+ * https://www.tecdrop.com
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -23,8 +23,6 @@ import android.content.ClipboardManager;
 import android.content.Context;
 import android.graphics.Color;
 import android.text.TextUtils;
-
-import com.appgramming.lonecolor.R;
 
 /**
  * Utility class to read a valid color value from the clipboard.
@@ -52,12 +50,6 @@ public final class ColorClipboardParameter {
                 // Return null if the clipboard does not contain plain text or html text
                 if (!description.hasMimeType(ClipDescription.MIMETYPE_TEXT_PLAIN) &&
                         !description.hasMimeType(ClipDescription.MIMETYPE_TEXT_HTML)) {
-                    return null;
-                }
-
-                // Ignore and return null if it's a clip previously copied by LoneColor
-                final CharSequence label = description.getLabel();
-                if ((label != null) && (label.equals(context.getString(R.string.app_name)))) {
                     return null;
                 }
 
