@@ -46,16 +46,16 @@ public final class ColorWallpaper {
         // Get the Wallpaper Manager
         final WallpaperManager wpManager = WallpaperManager.getInstance(context);
 
-        // Create the pitch black bitmap
-        final Bitmap pitchBlackBitmap = createColorBitmap(color, MIN_SAFE_SIZE, MIN_SAFE_SIZE);
+        // Create the color bitmap
+        final Bitmap colorBitmap = createColorBitmap(color, MIN_SAFE_SIZE, MIN_SAFE_SIZE);
 
         // Set the wallpaper
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
             // On Android N and above use the new API to set both the general system wallpaper and
             // the lock-screen-specific wallpaper
-            wpManager.setBitmap(pitchBlackBitmap, null, true, WallpaperManager.FLAG_SYSTEM | WallpaperManager.FLAG_LOCK);
+            wpManager.setBitmap(colorBitmap, null, true, WallpaperManager.FLAG_SYSTEM | WallpaperManager.FLAG_LOCK);
         } else {
-            wpManager.setBitmap(pitchBlackBitmap);
+            wpManager.setBitmap(colorBitmap);
         }
     }
 

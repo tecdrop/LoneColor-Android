@@ -41,18 +41,19 @@ public class LoneColorActivity extends Activity {
     public void onWindowFocusChanged(boolean hasFocus) {
         super.onWindowFocusChanged(hasFocus);
 
-        // Set the color wallpaper
-        setColorWallpaper();
+        if (hasFocus) {
+            // Set the color wallpaper
+            setColorWallpaper();
 
-        // Finish the activity
-        finish();
+            // Finish the activity
+            finish();
+        }
     }
 
     /**
      * Sets the color wallpaper to the color value in the Clipboard, or to a random color.
      */
     private void setColorWallpaper() {
-
         // Try to get the color parameter from the clipboard
         Integer colorParam = null;
         try {
