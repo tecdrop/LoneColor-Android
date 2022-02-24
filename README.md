@@ -65,10 +65,6 @@ LoneColor also has a zero interface [version](https://github.com/tecdrop/LoneCol
 
 Contributions are welcome: code, text, documentation, design, graphics, suggestions. Please fork this repository and contribute back using [pull requests](https://github.com/tecdrop/LoneColor-Android/pulls), [submit an issue](https://github.com/tecdrop/LoneColor-Android/issues), or [send an email](https://www.tecdrop.com/contact/).
 
-## Author
-
-LoneColor for Android was created in 2014 by [Horațiu Tănescu](https://horatiu.me), cofounder of [East-Tec](https://www.east-tec.com) and original creator of [east-tec Eraser](https://www.east-tec.com/eraser/), the privacy solution that quickly and securely covers your online and PC tracks.
-
 ## License
 
 LoneColor is licensed under the [MIT license](LICENSE).
