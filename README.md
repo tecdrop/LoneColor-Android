@@ -21,18 +21,11 @@ LoneColor also has a zero interface [version](https://github.com/tecdrop/LoneCol
 
 ## Screenshots
 
-<a href="https://cloud.githubusercontent.com/assets/17748046/18539692/f2304e5a-7b21-11e6-8bfd-ac9e3b8813f8.png" target="_blank">
-  <img src="https://cloud.githubusercontent.com/assets/17748046/18539692/f2304e5a-7b21-11e6-8bfd-ac9e3b8813f8.png" width="310"     alt="LoneColor for Android Screenshot - Tap.png"/>
-</a>
-<a href="https://cloud.githubusercontent.com/assets/17748046/18539693/f230828a-7b21-11e6-979b-2d3953e73d40.png" target="_blank">
-  <img src="https://cloud.githubusercontent.com/assets/17748046/18539693/f230828a-7b21-11e6-979b-2d3953e73d40.png" width="310"     alt="LoneColor for Android Screenshot - Tap.png"/>
-</a>
-<a href="https://cloud.githubusercontent.com/assets/17748046/18539694/f230ab5c-7b21-11e6-8e08-334995d4a8fb.png" target="_blank">
-  <img src="https://cloud.githubusercontent.com/assets/17748046/18539694/f230ab5c-7b21-11e6-8e08-334995d4a8fb.png" width="310"     alt="LoneColor for Android Screenshot - Tap.png"/>
-</a>
-<a href="https://cloud.githubusercontent.com/assets/17748046/18539695/f230d7bc-7b21-11e6-8df7-25d09b01fcba.png" target="_blank">
-  <img src="https://cloud.githubusercontent.com/assets/17748046/18539695/f230d7bc-7b21-11e6-8df7-25d09b01fcba.png" width="310"     alt="LoneColor for Android Screenshot - Tap.png"/>
-</a>
+<img src="/repo-assets/screenshots/lonecolor-android-screenshot-device-home.png" width="310" alt="LoneColor for Android Screenshot - Device Home" /> <img 
+src="/repo-assets/screenshots/lonecolor-android-screenshot-zero-interface.png" width="310" alt="LoneColor for Android Screenshot - Zero Interface" /> <img 
+src="/repo-assets/screenshots/lonecolor-android-screenshot-keep-tapping.png" width="310" alt="LoneColor for Android Screenshot - Keep Tapping" /> <img 
+src="/repo-assets/screenshots/lonecolor-android-screenshot-copy.png" width="310" alt="LoneColor for Android Screenshot - Copy" /> <img 
+src="/repo-assets/screenshots/lonecolor-android-screenshot-paste.png" width="310" alt="LoneColor for Android Screenshot - Paste" />
 
 ## Reviews
 
