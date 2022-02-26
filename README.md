@@ -21,11 +21,11 @@ LoneColor also has a zero interface [version](https://github.com/tecdrop/LoneCol
 
 ## Screenshots
 
-<img src="/repo-assets/screenshots/lonecolor-android-screenshot-device-home.png" width="310" alt="LoneColor for Android Screenshot - Device Home" /> <img 
-src="/repo-assets/screenshots/lonecolor-android-screenshot-zero-interface.png" width="310" alt="LoneColor for Android Screenshot - Zero Interface" /> <img 
-src="/repo-assets/screenshots/lonecolor-android-screenshot-keep-tapping.png" width="310" alt="LoneColor for Android Screenshot - Keep Tapping" /> <img 
-src="/repo-assets/screenshots/lonecolor-android-screenshot-copy.png" width="310" alt="LoneColor for Android Screenshot - Copy" /> <img 
-src="/repo-assets/screenshots/lonecolor-android-screenshot-paste.png" width="310" alt="LoneColor for Android Screenshot - Paste" />
+<img src="/repo-assets/screenshots/lonecolor-android-screenshot-device-home.png" width="256" alt="LoneColor for Android Screenshot - Device Home" /> <img 
+src="/repo-assets/screenshots/lonecolor-android-screenshot-zero-interface.png" width="256" alt="LoneColor for Android Screenshot - Zero Interface" /> <img 
+src="/repo-assets/screenshots/lonecolor-android-screenshot-keep-tapping.png" width="256" alt="LoneColor for Android Screenshot - Keep Tapping" /> <img 
+src="/repo-assets/screenshots/lonecolor-android-screenshot-copy.png" width="256" alt="LoneColor for Android Screenshot - Copy" /> <img 
+src="/repo-assets/screenshots/lonecolor-android-screenshot-paste.png" width="256" alt="LoneColor for Android Screenshot - Paste" />
 
 ## Reviews
 
