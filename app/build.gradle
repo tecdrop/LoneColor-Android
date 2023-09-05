@@ -3,14 +3,14 @@ plugins {
 }
 
 android {
-    compileSdk 31
+    compileSdk 33
 
     defaultConfig {
         applicationId "com.appgramming.lonecolor"
         minSdk 21
-        targetSdk 31
-        versionCode 7
-        versionName "2.2"
+        targetSdk 33
+        versionCode 8
+        versionName "2.3"
     }
 
     buildTypes {
@@ -37,6 +37,7 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
+    namespace 'com.appgramming.lonecolor'
 }
 
 dependencies {
